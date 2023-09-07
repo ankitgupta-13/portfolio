@@ -4,19 +4,15 @@ import styles from "./Projects.module.css";
 
 const Projects = () => {
   return (
-    <div
-      id="work"
-      style={{
-        height: "60rem",
-        backgroundColor: "aliceblue",
-      }}
-      className={styles.projects}
-    >
+    <div id="work" className={styles.projects}>
       <Project />
       <div className="container">
         <div className={styles.line}></div>
       </div>
       <Project />
+      <div className="container">
+        <div className={styles.line}></div>
+      </div>
       <Project />
     </div>
   );

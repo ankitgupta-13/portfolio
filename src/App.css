@@ -4,6 +4,7 @@
   background-color: rgb(83, 81, 77);
 }
 .container {
+  margin: 2rem;
   display: flex;
   justify-content: center;
 }

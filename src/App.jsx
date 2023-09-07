@@ -19,7 +19,9 @@ function App() {
         <div className="line"></div>
       </div>
       <Contact />
-      <div className="line"></div>
+      <div className="container">
+        <div className="line"></div>
+      </div>
       <Footer />
     </>
   );
