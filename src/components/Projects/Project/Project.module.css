@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* position: relative; */
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.description {
+  width: 30vw;
+}
+.image {
+  width: 50vw;
+  display: block;
+  margin: auto;
+}
+.logo {
+  width: 20px;
+}
+.button {
+  display: flex;
+  gap: 0.4rem;
+}

@@ -1,0 +1,10 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.line {
+    width: 90%;
+    height: 1px;
+    background-color: rgb(83, 81, 77);
+  }

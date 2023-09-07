@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  height: 30rem;
+}
+.animation {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ball {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+  animation: bounce 2s ease-in-out infinite;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-200px);
+  }
+}
+.square {
+  display: flex;
+}
+.squareG {
+  height: 60px;
+  width: 60px;
+  background-color: green;
+}
+.squareR {
+  height: 60px;
+  width: 60px;
+  background-color: red;
+}
+.squareB {
+  height: 60px;
+  width: 60px;
+  background-color: blue;
+}
